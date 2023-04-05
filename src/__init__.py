@@ -12,6 +12,6 @@ def create_app(config_class='config.ProductionConfig'):
     app.config.from_object(config_class)
 
     from .controllers import spaceship
-    app.register_blueprint(spaceship.bp)
+    app.register_blueprint(spaceship.app)
 
     return app
