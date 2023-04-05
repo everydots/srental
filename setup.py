@@ -8,6 +8,7 @@ setup(
     description='Used to optimize the profitability of a small rental company with a single spaceship to rent.',
     include_package_data=True,
     packages=find_packages(),
+    license='Apache License 2.0',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python :: 3',

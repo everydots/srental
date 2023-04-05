@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(me
                     handlers=[logging.StreamHandler()])
 
 
-def create_app(config_class='config.ProductionConfig'):
+def create_app(config_class='app.config.ProductionConfig'):
     app = Flask(__name__)
     app.config.from_object(config_class)
 

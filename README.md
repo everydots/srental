@@ -2,9 +2,18 @@
 Python 3.10 
 
 ## Follow below steps to verify the restful endpoint
-1. Create a virtual environment and activate it by using python 3.10:
+1. Get the source code of the project
+```shell
+# Option1: Unzip the compressed file
+tar -zxf srental-0.0.1.tar.gz -C srental
+
+# Option2: Git clone from repo
+git clone https://github.com/everydots/srental.git
+```
+2. Go into project and create a virtual environment and activate it by using python 3.10:
 
 ```shell
+cd srental-0.0.1
 python3 -m venv venv
 source venv/bin/activate
 ```

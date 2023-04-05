@@ -1,6 +1,6 @@
 import unittest
 
-from src.services import Contract, get_optimal_contracts, parse_contract_json
+from app.services import Contract, get_optimal_contracts, parse_contract_json
 
 
 class TestContractService(unittest.TestCase):
