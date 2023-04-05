@@ -1,5 +1,11 @@
 ## Pre-requirements
-Python 3.10 
+Python 3.10 ( if you don't have python 3.10, please download and install from here: https://www.python.org/downloads/release/python-31010/)
+- For Mac, you can use the command below to install python3.10
+```shell
+brew install python@3.10
+
+# link: https://installvirtual.com/how-to-install-python-3-10-on-mac-using-brew/
+``` 
 
 ## Follow below steps to verify the restful endpoint
 1. Get the source code of the project
