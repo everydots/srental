@@ -5,7 +5,7 @@ Python 3.10
 1. Get the source code of the project
 ```shell
 # Option1: Unzip the compressed file
-tar -zxf srental-0.0.1.tar.gz -C srental
+tar -zxf srental-0.0.1.tar.gz
 
 # Option2: Git clone from repo
 git clone https://github.com/everydots/srental.git
